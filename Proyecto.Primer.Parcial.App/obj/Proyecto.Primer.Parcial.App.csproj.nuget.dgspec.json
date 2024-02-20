@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.App\\Proyecto.Primer.Parcial.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.App\\Proyecto.Primer.Parcial.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.App\\Proyecto.Primer.Parcial.App.csproj",
+        "projectName": "Proyecto.Primer.Parcial.App",
+        "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.App\\Proyecto.Primer.Parcial.App.csproj",
+        "packagesPath": "C:\\Users\\lo397\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lo397\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj": {
+                "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj"
+              },
+              "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\Proyecto.Primer.Parcial.Tests.csproj": {
+                "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\Proyecto.Primer.Parcial.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj",
+        "projectName": "Proyecto.Primer.Parcial.Core",
+        "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj",
+        "packagesPath": "C:\\Users\\lo397\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lo397\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\Proyecto.Primer.Parcial.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\Proyecto.Primer.Parcial.Tests.csproj",
+        "projectName": "Proyecto.Primer.Parcial.Tests",
+        "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\Proyecto.Primer.Parcial.Tests.csproj",
+        "packagesPath": "C:\\Users\\lo397\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lo397\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
