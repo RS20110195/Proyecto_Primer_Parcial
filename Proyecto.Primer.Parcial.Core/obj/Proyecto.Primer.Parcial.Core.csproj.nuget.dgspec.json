@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj": {}
+    "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj": {
+    "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj",
+        "projectUniqueName": "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj",
         "projectName": "Proyecto.Primer.Parcial.Core",
-        "projectPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\Proyecto.Primer.Parcial.Core.csproj",
-        "packagesPath": "C:\\Users\\lo397\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lo397\\Documents\\Universidad TecPurisima\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\PRIMER PARCIAL\\Proyecto_PrimerParcial\\Proyecto.Primer.Parcial.Core\\obj\\",
+        "projectPath": "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj",
+        "packagesPath": "/Users/alanjlj/.nuget/packages/",
+        "outputPath": "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lo397\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/alanjlj/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }
