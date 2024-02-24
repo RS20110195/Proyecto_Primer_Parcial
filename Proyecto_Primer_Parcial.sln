@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Primer.Parcial.App", "Proyecto.Primer.Parcial.App\Proyecto.Primer.Parcial.App.csproj", "{429F12FC-FAEA-4564-A29B-0E733EB19272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Primer.Parcial.Core", "Proyecto.Primer.Parcial.Core\Proyecto.Primer.Parcial.Core.csproj", "{2427E7F5-1833-48AE-B52A-29CE5D653A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto.Primer.Parcial.Tests", "Proyecto.Primer.Parcial.Tests\Proyecto.Primer.Parcial.Tests.csproj", "{AE8906EE-AFB8-41B0-AE35-38B4E336FE57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{429F12FC-FAEA-4564-A29B-0E733EB19272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429F12FC-FAEA-4564-A29B-0E733EB19272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429F12FC-FAEA-4564-A29B-0E733EB19272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429F12FC-FAEA-4564-A29B-0E733EB19272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2427E7F5-1833-48AE-B52A-29CE5D653A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2427E7F5-1833-48AE-B52A-29CE5D653A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2427E7F5-1833-48AE-B52A-29CE5D653A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2427E7F5-1833-48AE-B52A-29CE5D653A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8906EE-AFB8-41B0-AE35-38B4E336FE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8906EE-AFB8-41B0-AE35-38B4E336FE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8906EE-AFB8-41B0-AE35-38B4E336FE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8906EE-AFB8-41B0-AE35-38B4E336FE57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
