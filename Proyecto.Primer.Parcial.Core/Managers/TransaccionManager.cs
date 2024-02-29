@@ -16,5 +16,30 @@ public class TransaccionManager : ITransaccionManager
         {
             return _service.ProcessTransacciones(registros);
         }
+
+        public (List<Transacciones>, SaldoActual) GetTransaccionesListAndSaldoActual(List<Transacciones> lista_actual_transacciones, SaldoActual saldoactual, bool tipo)
+        {
+            return _service.ProcessTransaccionesListAndSaldoActual(lista_actual_transacciones, saldoactual, tipo);
+        }
+
+        public int GetMeta(float MoneyMeta, SaldoActual saldoActual)
+        {
+            return _service.ProcessMeta(MoneyMeta, saldoActual);
+        }
+
+        public double GetSaldoFinal(
+            double ingresos_totales, 
+            double gastos_fijos, 
+            double gastos_variables,
+            double ahorros
+            )
+        {
+            return _service.ProcessSaldoFinal(ingresos_totales, gastos_fijos, gastos_variables, ahorros);
+        }
+
+        public Transacciones searchTransacciones(List<Transacciones> lista_transacciones, string query)
+        {
+            return _service.searchTransacciones(lista_transacciones, query);
+        }
 }
 

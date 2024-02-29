@@ -22,4 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto.Primer.Parcial.App\Proyecto.Primer.Parcial.App.csproj" />
+    <ProjectReference Include="..\Proyecto.Primer.Parcial.Core\Proyecto.Primer.Parcial.Core.csproj" />
+  </ItemGroup>
+
 </Project>

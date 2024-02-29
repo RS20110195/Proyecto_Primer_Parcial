@@ -1708,6 +1708,29 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Proyecto.Primer.Parcial.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Proyecto.Primer.Parcial.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Proyecto.Primer.Parcial.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Proyecto.Primer.Parcial.App.dll": {}
+        }
+      },
+      "Proyecto.Primer.Parcial.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Proyecto.Primer.Parcial.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Proyecto.Primer.Parcial.Core.dll": {}
+        }
       }
     }
   },
@@ -5500,11 +5523,23 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Proyecto.Primer.Parcial.App/1.0.0": {
+      "type": "project",
+      "path": "../Proyecto.Primer.Parcial.App/Proyecto.Primer.Parcial.App.csproj",
+      "msbuildProject": "../Proyecto.Primer.Parcial.App/Proyecto.Primer.Parcial.App.csproj"
+    },
+    "Proyecto.Primer.Parcial.Core/1.0.0": {
+      "type": "project",
+      "path": "../Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj",
+      "msbuildProject": "../Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.7.1",
+      "Proyecto.Primer.Parcial.App >= 1.0.0",
+      "Proyecto.Primer.Parcial.Core >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -5534,7 +5569,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.App/Proyecto.Primer.Parcial.App.csproj": {
+              "projectPath": "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.App/Proyecto.Primer.Parcial.App.csproj"
+            },
+            "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj": {
+              "projectPath": "/Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Core/Proyecto.Primer.Parcial.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

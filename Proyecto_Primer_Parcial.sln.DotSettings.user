@@ -1,0 +1,51 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1c2bde0e_002D863c_002D4b7e_002D9369_002D29abbddae269/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProcessSaldoFinal_ReturnsCorrectSaldoFinal" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.TransaccionServiceShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=283da1fe_002Df5c1_002D4c2d_002Daeef_002D23d9285cb3f2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=340640eb_002D4a2f_002D4c38_002D9ccb_002Da45ebfa33237/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MainMainProgramShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainMainProgramShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f52b326_002D78bc_002D4b6c_002D80b0_002Dc253f1498f4c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=51b4686b_002D90a7_002D44f2_002Dbc97_002D38614adf1f62/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Opcion1_InputOption1_DisplayTransactionMenu" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.TransaccionServiceShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6972405d_002D71b1_002D4500_002D8909_002D1a4765ca996d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a932d680_002Ddc70_002D4040_002D894b_002D7928489a00c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MainProgramShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7af86e0_002Df939_002D4a40_002D992e_002Dcf6da7b62d22/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ProcessTransaccionesListAndSaldoActual_ReturnsUpdatedListAndSaldoActual" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.TransaccionServiceShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c0965f00_002Dab35_002D4da4_002D942e_002D121cc72218a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e9cfd5f5_002D91c0_002D4679_002D9106_002Dadb55d4b037c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
