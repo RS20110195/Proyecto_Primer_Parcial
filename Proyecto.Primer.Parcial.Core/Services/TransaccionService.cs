@@ -2,6 +2,7 @@
 
 
 using System.ComponentModel;
+using System.Text.RegularExpressions;
 using Proyecto.Primer.Parcial.Core.Entities;
 using Proyecto.Primer.Parcial.Core.Services.Interfaces;
 
@@ -50,6 +51,7 @@ public class TransaccionService : ITransaccionService
                 System.Console.WriteLine("5. Entretenimiento");
                 System.Console.WriteLine("6. Otros");
                 System.Console.Write("Ingrese la Categoria : ");
+
                 int categoria_num;
                 Int32.TryParse(System.Console.ReadLine(), out categoria_num);
 
