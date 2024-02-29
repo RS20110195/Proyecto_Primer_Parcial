@@ -2,7 +2,6 @@
 using System;
 using System.Threading;
 using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
 using Proyecto.Primer.Parcial.Core.Entities;
 using Proyecto.Primer.Parcial.Core.Managers;
 using Proyecto.Primer.Parcial.Core.Services;
@@ -10,13 +9,17 @@ using Proyecto.Primer.Parcial.Core.Services;
 namespace Proyecto.Primer.Parcial.App;
 
 
-public static class Program
+public static class MainProgram
 {
     public static List<Transacciones> listTransacciones = new List<Transacciones>();
     public static Ingresos IN = new Ingresos();
     public static Retiros RE = new Retiros();
     public static SaldoActual SA = new SaldoActual();
     public static List<String> DescripcionDistinta = new List<String>();
+
+    public static TransaccionService service = new TransaccionService();
+    
+    public static TransaccionManager managers = new TransaccionManager(service);
     
 public static void Main(string[] args){
     float Option;
@@ -86,15 +89,23 @@ static void Opcion1()
 }
 
 
-static void Registro(bool tipo)
+public static void Registro(bool tipo)
 {
     var service = new TransaccionService();
     var managers = new TransaccionManager(service);
-    float MoneyAux;
+
+
+    var result = managers.GetTransaccionesListAndSaldoActual(listTransacciones, SA, tipo);
+
+    listTransacciones = result.Item1;
+    SA = result.Item2;
+
+    /*float MoneyAux;
     String descripcion;
     System.Console.Write("Ingrese la cantidad: ");
     Single.TryParse(System.Console.ReadLine(), out MoneyAux);
     double Money = (double)MoneyAux;
+
     if (tipo)
     {
         if (Money > 0)
@@ -128,7 +139,7 @@ static void Registro(bool tipo)
             System.Console.WriteLine($"No puede Retirar más del Saldo Actual: ${SA.saldoactual} mxn");
             System.Console.WriteLine("-------------------------------------------------------------------");
         }
-    }
+    }*/
     
 }
 
@@ -187,6 +198,7 @@ static void estadoFinanciero(){
     foreach (var VARIABLE in listTransacciones)
     { if (VARIABLE.Tipo)
         { System.Console.WriteLine("----------------------------------");
+            System.Console.WriteLine(VARIABLE.Categoria);
             System.Console.WriteLine(VARIABLE.Descripcion);
             System.Console.WriteLine($"${VARIABLE.Monto} mxn");
             System.Console.WriteLine("----------------------------------");
@@ -197,6 +209,7 @@ static void estadoFinanciero(){
     foreach (var VARIABLE in listTransacciones)
     { if (!VARIABLE.Tipo)
         { System.Console.WriteLine("----------------------------------");
+            System.Console.WriteLine(VARIABLE.Categoria);
             System.Console.WriteLine(VARIABLE.Descripcion);
             System.Console.WriteLine($"${VARIABLE.Monto} mxn");
             System.Console.WriteLine("----------------------------------");
@@ -222,25 +235,56 @@ static void informeFinanzas()
     
     System.Console.Write("Ingresa una descripcion de Busqueda: ");
     Description = System.Console.ReadLine() ?? "";
-    foreach (var VARIABLE in listTransacciones)
-    {
-        if (VARIABLE.Descripcion.Equals(Description))
-        {System.Console.WriteLine("----------------------------------");
-            if (VARIABLE.Tipo)
-            {
-                System.Console.WriteLine("----- Ingreso -----");
-            }
-            else
-            {
-                System.Console.WriteLine("----- Retiro -----");
-            }
 
-            System.Console.WriteLine(VARIABLE.Descripcion);
-            System.Console.WriteLine($"${VARIABLE.Monto} mxn");
-            System.Console.WriteLine("----------------------------------");
-            
+
+    Transacciones transaccionBusqueda;
+
+    transaccionBusqueda = managers.searchTransacciones(listTransacciones, Description);
+
+    if(transaccionBusqueda != null)
+    {
+        System.Console.WriteLine("----------------------------------");
+        if (transaccionBusqueda.Tipo)
+        {
+            System.Console.WriteLine("----- Ingreso -----");
         }
+        else
+        {
+            System.Console.WriteLine("----- Retiro -----");
+        }
+
+        System.Console.WriteLine(transaccionBusqueda.Categoria);
+        System.Console.WriteLine(transaccionBusqueda.Descripcion);
+        System.Console.WriteLine($"${transaccionBusqueda.Monto} mxn");
+        System.Console.WriteLine("----------------------------------");
     }
+    else
+    {
+        System.Console.WriteLine("No se encontro la descripcion");
+    }
+
+
+
+    // foreach (var VARIABLE in listTransacciones)
+    // {
+    //     if (VARIABLE.Descripcion.Equals(Description))
+    //     {
+    //         System.Console.WriteLine("----------------------------------");
+    //         if (VARIABLE.Tipo)
+    //         {
+    //             System.Console.WriteLine("----- Ingreso -----");
+    //         }
+    //         else
+    //         {
+    //             System.Console.WriteLine("----- Retiro -----");
+    //         }
+
+    //         System.Console.WriteLine(VARIABLE.Descripcion);
+    //         System.Console.WriteLine($"${VARIABLE.Monto} mxn");
+    //         System.Console.WriteLine("----------------------------------");
+            
+    //     }
+    // }
 
 }
 
@@ -281,10 +325,17 @@ public static void meta()
     float MoneyMeta;
     int Limite;
 
+    var service = new TransaccionService();
+    var managers = new TransaccionManager(service);
+
 System.Console.WriteLine($"Saldo Actual ${SA.saldoactual} mxn");
     System.Console.Write("¿Cuanto es tu Meta Financiera?: ");
     Single.TryParse(System.Console.ReadLine(), out MoneyMeta);
-    if (MoneyMeta > SA.saldoactual)
+    
+    
+    
+    
+    /*if (MoneyMeta > SA.saldoactual)
     { 
         double LimiteAux = ((100 / MoneyMeta) * SA.saldoactual);
         Limite = (int)LimiteAux;
@@ -292,7 +343,13 @@ System.Console.WriteLine($"Saldo Actual ${SA.saldoactual} mxn");
     else
     {
         Limite = 100;
-    }
+    }*/
+
+    Limite = managers.GetMeta(MoneyMeta, SA);
+
+
+    System.Console.WriteLine($"Llevas {Limite}% de tu Meta Financiera de ${MoneyMeta} mxn");
+
     Console.Write("Progreso: ");
         for (int i = 0; i <= Limite; i++)
         {
@@ -315,6 +372,10 @@ public static void presupuestoMensual()
     double gastos_variables;
     double ahorros;
     double saldo_final;
+
+
+
+
     
     // Ingresar datos
     Console.Write("Ingrese sus ingresos totales:");
@@ -330,7 +391,7 @@ public static void presupuestoMensual()
     ahorros = Convert.ToDouble(Console.ReadLine());
 
     // Calcular saldo final
-    saldo_final = ingresos_totales - gastos_fijos - gastos_variables - ahorros;
+    saldo_final = managers.GetSaldoFinal(ingresos_totales, gastos_fijos, gastos_variables, ahorros);
 
     // Mostrar resultados
     Console.WriteLine("Presupuesto mensual:");

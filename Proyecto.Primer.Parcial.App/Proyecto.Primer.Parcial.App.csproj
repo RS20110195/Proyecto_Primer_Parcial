@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Proyecto.Primer.Parcial.Core\Proyecto.Primer.Parcial.Core.csproj" />
-    <ProjectReference Include="..\Proyecto.Primer.Parcial.Tests\Proyecto.Primer.Parcial.Tests.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
