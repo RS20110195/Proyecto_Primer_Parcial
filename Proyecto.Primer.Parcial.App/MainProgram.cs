@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Proyecto.Primer.Parcial.Core.Entities;
 using Proyecto.Primer.Parcial.Core.Managers;
 using Proyecto.Primer.Parcial.Core.Services;
+using System.Text.RegularExpressions;
 
 namespace Proyecto.Primer.Parcial.App;
 
@@ -22,7 +23,8 @@ public static class MainProgram
     public static TransaccionManager managers = new TransaccionManager(service);
     
 public static void Main(string[] args){
-    float Option;
+    string input;
+    float option = -1;
     do
     {
         System.Console.WriteLine("---------- SISTEMA PRINCIPAL ----------");
@@ -32,8 +34,24 @@ public static void Main(string[] args){
         System.Console.WriteLine("0. Salir del Sistema");
         System.Console.Write("Ingresa Opcion -->: ");
         //Option = Console.Read();
-        Single.TryParse(System.Console.ReadLine(), out Option);
-        switch(Option){
+        //Single.TryParse(System.Console.ReadLine(), out Option);
+
+
+
+        input = System.Console.ReadLine();
+
+        // Validar si la entrada es un número usando una expresión regular
+        if (!Regex.IsMatch(input, @"^\d+$"))
+        {
+            Console.WriteLine("Por favor ingresa solo números.");
+            continue; // Vuelve al inicio del bucle
+        }
+
+        // Convertir la entrada a un número flotante
+        option = float.Parse(input);
+
+
+        switch(option){
             case 1:
                 Opcion1();
             break;
@@ -51,14 +69,14 @@ public static void Main(string[] args){
             break;
         }
         
-    } while (Option != 0);
+    } while (option != 0);
 }
 
 
 static void Opcion1()
 {
-    
-    float option;
+    string input;
+    float option = -1;
     do
     {
         System.Console.WriteLine("---------- REGISTRO DE TRANSACCIONES ----------");
@@ -67,7 +85,19 @@ static void Opcion1()
         System.Console.WriteLine("2. Retirar ");
         System.Console.WriteLine("0. Regresar al Menu Principal");
         System.Console.Write("Ingresa Una Opcion -->: ");
-        Single.TryParse(System.Console.ReadLine(), out option);
+        //Single.TryParse(System.Console.ReadLine(), out option);
+
+        input = System.Console.ReadLine();
+
+        // Validar si la entrada es un número usando una expresión regular
+        if (!Regex.IsMatch(input, @"^\d+$"))
+        {
+            Console.WriteLine("Por favor ingresa solo números.");
+            continue; // Vuelve al inicio del bucle
+        }
+
+        // Convertir la entrada a un número flotante
+        option = float.Parse(input);
 
         switch (option)
         {
@@ -146,7 +176,8 @@ public static void Registro(bool tipo)
 
 static void Opcion2()
 {
-    float option;
+    float option = -1;
+    string input;
     do
     {
         System.Console.WriteLine("---------- SEGUIMIENTO DE SALDO Y ESTADO FINANCIERO ----------");
@@ -155,7 +186,21 @@ static void Opcion2()
         System.Console.WriteLine("3. Informes de las Finanzas ");
         System.Console.WriteLine("0. Regresar al Menu Principal");
         System.Console.Write("Ingresa Una Opcion -->: ");
-        Single.TryParse(System.Console.ReadLine(), out option);
+
+
+        //Single.TryParse(System.Console.ReadLine(), out option);
+
+        input = System.Console.ReadLine();
+
+        // Validar si la entrada es un número usando una expresión regular
+        if (!Regex.IsMatch(input, @"^\d+$"))
+        {
+            Console.WriteLine("Por favor ingresa solo números.");
+            continue; // Vuelve al inicio del bucle
+        }
+
+        // Convertir la entrada a un número flotante
+        option = float.Parse(input);
 
         switch (option)
         {
@@ -290,7 +335,9 @@ static void informeFinanzas()
 
 static void Opcion3()
 {
-    float option;
+    float option = -1;
+    string input;
+
     do
     {
         System.Console.WriteLine("---------- METAS Y PRESUPUESTOS ----------");
@@ -298,7 +345,21 @@ static void Opcion3()
         System.Console.WriteLine("2. Presupuesto Mensual ");
         System.Console.WriteLine("0. Regresar al Menu Principal");
         System.Console.Write("Ingresa Una Opcion -->: ");
-        Single.TryParse(System.Console.ReadLine(), out option);
+
+
+        input = System.Console.ReadLine();
+
+        // Validar si la entrada es un número usando una expresión regular
+        if (!Regex.IsMatch(input, @"^\d+$"))
+        {
+            Console.WriteLine("Por favor ingresa solo números.");
+            continue; // Vuelve al inicio del bucle
+        }
+
+        // Convertir la entrada a un número flotante
+        option = float.Parse(input);
+
+        //Single.TryParse(System.Console.ReadLine(), out option);
 
         switch (option)
         {
