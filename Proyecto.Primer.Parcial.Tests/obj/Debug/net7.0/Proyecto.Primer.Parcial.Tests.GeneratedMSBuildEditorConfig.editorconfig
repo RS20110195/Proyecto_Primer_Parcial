@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto.Primer.Parcial.Tests
-build_property.ProjectDir = C:\Users\lo397\Documents\Universidad TecPurisima\8VO SEMESTRE\TECNOLOGIAS WEB MULTIPLATAFORMA\PRIMER PARCIAL\Proyecto_PrimerParcial\Proyecto.Primer.Parcial.Tests\
+build_property.ProjectDir = /Users/alanjlj/Software/Github/web_projects/Proyecto_Primer_Parcial/Proyecto.Primer.Parcial.Tests/
