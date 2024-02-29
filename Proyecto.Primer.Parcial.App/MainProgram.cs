@@ -44,7 +44,7 @@ public static void Main(string[] args){
                 Opcion3();
             break;
             case 0:
-            System.Console.WriteLine("Haz salido del Sistema Vuelva Pronto");
+            System.Console.WriteLine("Haz salido del Sistema Vuelva Pronto *+*");
             break;
             default:
             System.Console.WriteLine("No es Una Opcione del Sistema");
