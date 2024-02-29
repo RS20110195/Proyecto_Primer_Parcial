@@ -34,7 +34,7 @@
     &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7af86e0_002Df939_002D4a40_002D992e_002Dcf6da7b62d22/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ProcessTransaccionesListAndSaldoActual_ReturnsUpdatedListAndSaldoActual" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7af86e0_002Df939_002D4a40_002D992e_002Dcf6da7b62d22/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProcessTransaccionesListAndSaldoActual_ReturnsUpdatedListAndSaldoActual" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.TransaccionServiceShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
@@ -44,7 +44,7 @@
     &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e9cfd5f5_002D91c0_002D4679_002D9106_002Dadb55d4b037c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="VerifyTransactionListAfterWithdrawal #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e9cfd5f5_002D91c0_002D4679_002D9106_002Dadb55d4b037c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="VerifyTransactionListAfterWithdrawal #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
