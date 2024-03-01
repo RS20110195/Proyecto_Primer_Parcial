@@ -23,7 +23,6 @@ public class TransaccionService : ITransaccionService
     }
 
 
-    //I need return a list of transacciones and SaldoActual
 
 
     public (List<Transacciones>, SaldoActual) ProcessTransaccionesListAndSaldoActual(List<Transacciones> lista_actual_transacciones, SaldoActual saldoactual, bool tipo)

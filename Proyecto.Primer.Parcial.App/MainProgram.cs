@@ -62,7 +62,7 @@ public static void Main(string[] args){
                 Opcion3();
             break;
             case 0:
-            System.Console.WriteLine("Haz salido del Sistema Vuelva Pronto");
+            System.Console.WriteLine("Haz salido del Sistema Vuelva Pronto *+*");
             break;
             default:
             System.Console.WriteLine("No es Una Opcione del Sistema");
@@ -130,46 +130,7 @@ public static void Registro(bool tipo)
     listTransacciones = result.Item1;
     SA = result.Item2;
 
-    /*float MoneyAux;
-    String descripcion;
-    System.Console.Write("Ingrese la cantidad: ");
-    Single.TryParse(System.Console.ReadLine(), out MoneyAux);
-    double Money = (double)MoneyAux;
-
-    if (tipo)
-    {
-        if (Money > 0)
-        {    
-            System.Console.Write("Ingrese la Descripcion : ");
-            descripcion = System.Console.ReadLine() ?? "";
-            var registros = new Registros{Descripcion=descripcion, Monto=Money, Tipo = tipo};
-            Transacciones transacciones = managers.GetTransacciones(registros);
-            listTransacciones.Add(transacciones);
-            SA.saldoactual += Money;
-        }
-        else
-        {
-            System.Console.WriteLine("Debe Ingresar Una Cantidad Mayor a Cero");
-        }
-    }
-    else
-    {
-        if (Money <= SA.saldoactual)
-        {
-            System.Console.Write("Ingrese la Descripcion : ");
-            descripcion = System.Console.ReadLine() ?? "";
-            var registros = new Registros{Descripcion=descripcion, Monto=Money, Tipo = tipo};
-            Transacciones transacciones = managers.GetTransacciones(registros);
-            listTransacciones.Add(transacciones);
-            SA.saldoactual -= Money;
-        }
-        else
-        {
-            System.Console.WriteLine("-------------------------------------------------------------------");
-            System.Console.WriteLine($"No puede Retirar más del Saldo Actual: ${SA.saldoactual} mxn");
-            System.Console.WriteLine("-------------------------------------------------------------------");
-        }
-    }*/
+    
     
 }
 
@@ -310,27 +271,6 @@ static void informeFinanzas()
 
 
 
-    // foreach (var VARIABLE in listTransacciones)
-    // {
-    //     if (VARIABLE.Descripcion.Equals(Description))
-    //     {
-    //         System.Console.WriteLine("----------------------------------");
-    //         if (VARIABLE.Tipo)
-    //         {
-    //             System.Console.WriteLine("----- Ingreso -----");
-    //         }
-    //         else
-    //         {
-    //             System.Console.WriteLine("----- Retiro -----");
-    //         }
-
-    //         System.Console.WriteLine(VARIABLE.Descripcion);
-    //         System.Console.WriteLine($"${VARIABLE.Monto} mxn");
-    //         System.Console.WriteLine("----------------------------------");
-            
-    //     }
-    // }
-
 }
 
 static void Opcion3()
@@ -394,17 +334,6 @@ System.Console.WriteLine($"Saldo Actual ${SA.saldoactual} mxn");
     Single.TryParse(System.Console.ReadLine(), out MoneyMeta);
     
     
-    
-    
-    /*if (MoneyMeta > SA.saldoactual)
-    { 
-        double LimiteAux = ((100 / MoneyMeta) * SA.saldoactual);
-        Limite = (int)LimiteAux;
-    }
-    else
-    {
-        Limite = 100;
-    }*/
 
     Limite = managers.GetMeta(MoneyMeta, SA);
 

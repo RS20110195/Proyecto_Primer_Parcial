@@ -46,6 +46,6 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e9cfd5f5_002D91c0_002D4679_002D9106_002Dadb55d4b037c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="VerifyTransactionListAfterWithdrawal #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.MainProgramShould.VerifyTransactionListAfterWithdrawal&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AE8906EE-AFB8-41B0-AE35-38B4E336FE57::net7.0::Proyecto.Primer.Parcial.Tests.TransaccionServiceShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

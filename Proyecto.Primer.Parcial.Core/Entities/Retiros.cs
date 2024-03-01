@@ -3,5 +3,7 @@
 public class Retiros
 {
     public double RetirosTotales { get; set; }
+    
+    
 }
 
